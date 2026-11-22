@@ -1,0 +1,6 @@
+{% extends 'cursora/baza.html' %}
+{% block titlu %}Accesarea {{ accesare.id }} | Cursora{% endblock %}
+{% block continut %}
+<section class="page-heading"><p class="eyebrow">Jurnal</p><h1>Accesarea {{ accesare.id }}</h1></section>
+<section class="section"><dl class="detail-list"><dt>IP client</dt><dd>{{ accesare.ip_client }}</dd><dt>URL complet</dt><dd>{{ accesare.string_url }}</dd><dt>Pagină</dt><dd>{{ accesare.pagina }}</dd><dt>Data</dt><dd>{{ accesare.data|date:'d.m.Y H:i:s' }}</dd><dt>Parametri</dt><dd>{{ accesare.lista_parametri }}</dd></dl></section>
+{% endblock %}

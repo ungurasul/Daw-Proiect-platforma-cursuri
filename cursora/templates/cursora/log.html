@@ -1,0 +1,16 @@
+{% extends 'cursora/baza.html' %}
+{% block titlu %}Log accesări | Cursora{% endblock %}
+{% block continut %}
+<section class="page-heading"><p class="eyebrow">Sesiunea curentă a serverului</p><h1>Accesări</h1></section>
+<section class="section">
+  <h2>Parametri</h2>
+  <p>Parametri primiți: {{ nr_parametri }}. Nume: {% for nume, valori in parametri %}<code>{{ nume }}</code>{% if not forloop.last %}, {% endif %}{% empty %}niciunul{% endfor %}.</p>
+  {% if eroare %}<p class="notice notice-error">{{ eroare }}</p>{% endif %}
+  {% if accesari_nr %}<p>Număr de accesări de la pornirea serverului: {{ nr_accesari }}</p>{% endif %}
+  {% if accesari_detalii %}<h2>Data și ora accesărilor</h2><ul>{% for accesare in accesari %}<li>{{ accesare.data|date:'d.m.Y H:i:s' }}</li>{% endfor %}</ul>{% endif %}
+  {% if coloane %}<div class="table-wrap"><table><thead><tr>{% for coloana in coloane %}<th>{{ coloana }}</th>{% endfor %}</tr></thead><tbody>{% for rand in randuri %}<tr>{% for valoare in rand %}<td>{{ valoare }}</td>{% endfor %}</tr>{% empty %}<tr><td colspan="{{ coloane|length }}">Nu există accesări de afișat.</td></tr>{% endfor %}</tbody></table></div>{% else %}
+  <ol class="access-list">{% for accesare in accesari %}<li><a href="{% url 'cursora:detalii_accesare' accesare_id=accesare.id %}">Accesarea {{ accesare.id }}</a> | {{ accesare.pagina }} | {{ accesare.data|date:'d.m.Y H:i:s' }} | {{ accesare.ip_client }}</li>{% empty %}<li>Nu există accesări.</li>{% endfor %}</ol>{% endif %}
+  {% if pagini_minime %}<p>Pagina/paginile cel mai puțin accesate: {{ pagini_minime|join:', ' }}.</p>{% endif %}
+  {% if pagini_maxime %}<p>Pagina/paginile cel mai mult accesate: {{ pagini_maxime|join:', ' }}.</p>{% endif %}
+</section>
+{% endblock %}

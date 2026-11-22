@@ -1,0 +1,11 @@
+{% extends 'cursora/baza.html' %}
+{% load static %}
+{% block titlu %}Despre | Cursora{% endblock %}
+{% block continut %}
+<section class="page-heading"><p class="eyebrow">Despre Cursora</p><h1>Învățare digitală, cu accent pe practică.</h1></section>
+<section class="about-layout section">
+  <div><h2>Platforma și cursurile</h2><p>Cursora este o platformă online dedicată cursurilor digitale. Catalogul acoperă domenii precum programare, baze de date, securitate cibernetică și dezvoltare web. Fiecare curs este organizat în lecții și asociat competențelor pe care le dezvoltă.</p></div>
+  <img src="{% static 'cursora/images/about-course.svg' %}" alt="Ilustrație despre învățarea online">
+</section>
+<section class="section section-tinted"><p class="eyebrow">Misiunea noastră</p><h2>Să facem învățarea clară și accesibilă.</h2><p>Obiectivul Cursora este să ofere un catalog ușor de explorat, cu informații clare despre conținutul, nivelul și structura fiecărui curs.</p></section>
+{% endblock %}

@@ -1,0 +1,63 @@
+{% load static %}
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titlu %}Cursora{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'cursora/css/nav.css' %}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{% url 'cursora:home' %}">
+      <img src="{% static 'cursora/images/logo.svg' %}" alt="Cursora" width="42" height="42">
+      <span>Cursora</span>
+    </a>
+    <nav aria-label="Navigare principală">
+      <ul class="menu">
+        <li><a href="{% url 'cursora:home' %}">Acasă</a></li>
+        <li class="has-submenu">
+          <a href="{% url 'cursora:produse' %}">Cursuri</a>
+          <ul class="submenu">
+            <li><a href="{% url 'cursora:home' %}#recomandate">Recomandate</a></li>
+            <li><a href="{% url 'cursora:home' %}#categorii">Categorii</a></li>
+            <li><a href="{% url 'cursora:home' %}#promotii">Promoții</a></li>
+          </ul>
+        </li>
+        <li><a href="{% url 'cursora:despre' %}">Despre</a></li>
+        <li><a href="{% url 'cursora:istoric' %}">Istoric</a></li>
+        <li><a href="{% url 'cursora:contact' %}">Contact</a></li>
+        <li><a href="{% url 'cursora:cos_virtual' %}">Coș virtual</a></li>
+        <li class="has-submenu">
+          <a href="{% url 'cursora:instructori' %}">Mai multe</a>
+          <ul class="submenu">
+            <li><a href="{% url 'cursora:instructori' %}">Instructori</a></li>
+            <li><a href="{% url 'cursora:intrebari_frecvente' %}">Întrebări frecvente</a></li>
+            <li><a href="{% url 'cursora:info' %}">Info server</a></li>
+            <li><a href="{% url 'cursora:log' %}">Log accesări</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    {% block continut %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>{{ date_firma.nume }}</strong>
+      <span>Înființată: {{ date_firma.an_infiintare }}</span>
+      <span>Telefon: {{ date_firma.telefon }}</span>
+      <span>Sediu: {{ date_firma.adresa_sediu }}</span>
+      <span>Email suport: {{ date_firma.email_suport }}</span>
+      <span>Angajați: {{ date_firma.numar_angajati }}</span>
+    </div>
+    <div class="footer-meta">
+      <span>IP client: {{ ip_client }}</span>
+      <span>© {% now "Y" %} {{ date_firma.nume }}</span>
+    </div>
+  </footer>
+</body>
+</html>

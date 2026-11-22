@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" role="img" aria-labelledby="title desc">
+  <title id="title">Despre învățare</title><desc id="desc">O persoană citește și urmează lecții online.</desc>
+  <rect x="35" y="30" width="570" height="410" rx="34" fill="#eaf0f8"/>
+  <circle cx="320" cy="155" r="70" fill="#70a4ff"/>
+  <path d="M238 365c8-90 47-134 82-134s74 44 82 134" fill="#17365d"/>
+  <path d="M126 350h150v-90c-31-20-87-22-150 0zM364 260v90h150v-90c-63-22-119-20-150 0z" fill="#fff" stroke="#4472c4" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M151 285h93M151 307h74M391 285h96M391 307h77" stroke="#4472c4" stroke-width="7" stroke-linecap="round"/>
+  <path d="M320 260v112" stroke="#4472c4" stroke-width="6"/>
+  <circle cx="116" cy="126" r="18" fill="#4472c4"/><circle cx="526" cy="143" r="24" fill="#4472c4" opacity=".7"/>
+</svg>

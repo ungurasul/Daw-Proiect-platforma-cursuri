@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Cursora</title>
+  <rect width="64" height="64" rx="18" fill="#17365d"/>
+  <path d="M43 22a18 18 0 1 0 0 20l-7-5a9 9 0 1 1 0-10z" fill="#fff"/>
+  <circle cx="46" cy="32" r="5" fill="#70a4ff"/>
+</svg>

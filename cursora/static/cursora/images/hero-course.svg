@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" role="img" aria-labelledby="title desc">
+  <title id="title">Învățare online</title><desc id="desc">Ecran cu lecții, materiale de studiu și o diplomă.</desc>
+  <rect x="40" y="35" width="600" height="430" rx="36" fill="#eaf0f8"/>
+  <rect x="105" y="95" width="380" height="250" rx="18" fill="#17365d"/>
+  <rect x="125" y="115" width="340" height="205" rx="10" fill="#fff"/>
+  <rect x="155" y="145" width="120" height="12" rx="6" fill="#4472c4"/>
+  <rect x="155" y="174" width="250" height="10" rx="5" fill="#dce4ef"/>
+  <rect x="155" y="198" width="220" height="10" rx="5" fill="#dce4ef"/>
+  <rect x="155" y="235" width="135" height="58" rx="12" fill="#eaf0f8"/>
+  <path d="M178 272v-18l16-11 17 11v18l-17 10z" fill="#4472c4"/>
+  <rect x="310" y="235" width="135" height="58" rx="12" fill="#f4f7fb"/>
+  <path d="M337 251h78M337 266h54M337 280h67" stroke="#17365d" stroke-width="7" stroke-linecap="round"/>
+  <path d="M68 379h190l22 34H47z" fill="#4472c4"/>
+  <rect x="432" y="278" width="142" height="118" rx="18" fill="#fff" stroke="#4472c4" stroke-width="5" transform="rotate(-8 503 337)"/>
+  <path d="M464 318l23 22 48-53" fill="none" stroke="#4472c4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="552" cy="125" r="28" fill="#70a4ff" opacity=".7"/><circle cx="88" cy="140" r="15" fill="#70a4ff"/>
+</svg>

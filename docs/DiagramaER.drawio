@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="iM-lFuFCDXkT-4_Oe2bv">
+    <mxGraphModel dx="2102" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iF9vnJX685MQe6uSNeGD-1" edge="1" parent="1" source="iF9vnJX685MQe6uSNeGD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iF9vnJX685MQe6uSNeGD-6" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-2" edge="1" parent="1" source="iF9vnJX685MQe6uSNeGD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iF9vnJX685MQe6uSNeGD-7" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-3" edge="1" parent="1" source="iF9vnJX685MQe6uSNeGD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iF9vnJX685MQe6uSNeGD-8" value="1:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-4" edge="1" parent="1" source="iF9vnJX685MQe6uSNeGD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iF9vnJX685MQe6uSNeGD-9" value="M:N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;id (PK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;profesor_id (FK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;categorie_id (FK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;titlu&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;slug&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;descriere&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;sumar&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;pret&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;nivel&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;durata_ore&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;limbi_disponibile []&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;imagine&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;data_publicarii&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;activ&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="350" width="350" x="1037.387755102041" y="1252.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-6" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;id (PK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;nume&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;prenume&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;email&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;telefon&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;specializare&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;prezentare&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;website&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;data_adaugarii&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;activ&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="265" x="827.387755102041" y="762.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-7" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;id (PK Django)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;curs_id (FK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;ordine*&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;titlu&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;durata_minute&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;gratuita&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;descriere&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;video_url&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;data_adaugarii&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;*ordine identifică lecția în cadrul cursului&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="340" width="265" x="1497.387755102041" y="852.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-8" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;id (PK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;nume&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;slug&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;descriere&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;culoare&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;sigla&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;ordine&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;data_adaugarii&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;activa&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="275" x="617.387755102041" y="1472.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-9" parent="1" style="whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;id (PK)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;nume&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;descriere&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code dir=&quot;ltr&quot;&gt;domeniu&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="275" x="1337.387755102041" y="1672.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=25;fontStyle=1" value="CURS" vertex="1">
+          <mxGeometry height="40" width="350" x="1037.387755102041" y="1212.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="PROFESORI" vertex="1">
+          <mxGeometry height="60" width="265" x="827.387755102041" y="702.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="LECȚIE (slabă)" vertex="1">
+          <mxGeometry height="60" width="265" x="1497.387755102041" y="792.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="CATEGORIE" vertex="1">
+          <mxGeometry height="60" width="275" x="617.387755102041" y="1412.1632777622767" as="geometry" />
+        </mxCell>
+        <mxCell id="iF9vnJX685MQe6uSNeGD-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=1;fontSize=20;" value="COMPETENȚĂ" vertex="1">
+          <mxGeometry height="60" width="275" x="1337.387755102041" y="1672.1632777622767" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
