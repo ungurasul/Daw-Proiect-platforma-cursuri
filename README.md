@@ -12,7 +12,6 @@ Platformă Django pentru prezentarea și vânzarea cursurilor digitale.
 - `docs/DiagramaER.png`: exportul diagramei.
 - `Lista_prezentare.md`: corespondența dintre cerințele laboratoarelor 1–3 și fișierele proiectului.
 
-Documentația Word se predă separat, conform cerințelor cursului.
 
 ## Instalare locală
 
