@@ -11,6 +11,6 @@
   {% if coloane %}<div class="table-wrap"><table><thead><tr>{% for coloana in coloane %}<th>{{ coloana }}</th>{% endfor %}</tr></thead><tbody>{% for rand in randuri %}<tr>{% for valoare in rand %}<td>{{ valoare }}</td>{% endfor %}</tr>{% empty %}<tr><td colspan="{{ coloane|length }}">Nu există accesări de afișat.</td></tr>{% endfor %}</tbody></table></div>{% else %}
   <ol class="access-list">{% for accesare in accesari %}<li><a href="{% url 'cursora:detalii_accesare' accesare_id=accesare.id %}">Accesarea {{ accesare.id }}</a> | {{ accesare.pagina }} | {{ accesare.data|date:'d.m.Y H:i:s' }} | {{ accesare.ip_client }}</li>{% empty %}<li>Nu există accesări.</li>{% endfor %}</ol>{% endif %}
   {% if pagini_minime %}<p>Pagina/paginile cel mai puțin accesate: {{ pagini_minime|join:', ' }}.</p>{% endif %}
-  {% if pagini_maxime %}<p>Pagina/paginile cel mai mult accesate: {{ pagini_maxime|join:', ' }}.</p>{% endif %}
+  {% if pagini_maxime %}<p>Pagina/paginile cel mai des accesate: {{ pagini_maxime|join:', ' }}.</p>{% endif %}
 </section>
 {% endblock %}

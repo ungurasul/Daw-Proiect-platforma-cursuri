@@ -37,7 +37,7 @@ class CompetentaAdmin(admin.ModelAdmin):
 class CursAdmin(admin.ModelAdmin):
     list_display = ('titlu', 'profesor_nume', 'categorie', 'nivel', 'pret', 'activ')
     list_display_links = ('titlu',)
-    list_filter = ('activ', 'nivel', 'categorie')
+    list_filter = ('activ', 'nivel', 'categorie', 'pret')
     search_fields = ('titlu', 'descriere', 'profesor__nume', 'profesor__prenume', 'categorie__nume')
     prepopulated_fields = {'slug': ('titlu',)}
     readonly_fields = ('data_publicarii',)

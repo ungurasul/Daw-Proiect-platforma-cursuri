@@ -65,7 +65,7 @@ Verificare în cod: 10 câmpuri nullable, 10 câmpuri cu unicitate incluzând ch
 | Migrarea bazei | `cursora/migrations/0001_initial.py`; comanda `python manage.py migrate` |
 | Superuser și autentificare | `/admin/`; contul este local, nu este salvat în repository |
 | Modele înregistrate și listări Admin | `cursora/admin.py` |
-| Date introduse prin Admin | PostgreSQL: 5 profesori, 5 categorii, 5 competențe, 10 cursuri și 5 lecții |
+| Date introduse prin Admin | PostgreSQL: 5 profesori, 5 categorii, 5 competențe, 10 cursuri și 6 lecții |
 
 ### Task 3: GitHub
 
